@@ -1,0 +1,104 @@
+.navbar{
+background-color: darksalmon;
+padding:5px;
+border-radius: 20px;
+position: -webkit-sticky;
+	position: sticky;
+	top: 0;
+overflow: hidden;
+}
+
+
+
+.navbar li{
+    float:right;
+    list-style: none;
+    width: 10%;
+    font-weight: bolder;
+    font-size: 27px;
+    color: deeppink;
+    margin: 13px 20px;
+}
+
+.navbar li:hover{
+    background-color: floralwhite;
+}
+
+#books {
+   background-color: crimson;
+   width: fit-content;
+   text-align: center;
+   margin-left: auto;
+   margin-right: auto;
+   border-radius: 20px;
+   padding: 10px;
+font-family: 'Roboto', sans-serif;
+font-weight: bolder;
+}
+
+.t1{
+    box-sizing: border-box;
+    min-height: 100vh;
+    /* display: flex; */
+    justify-content: center;
+    align-items: center;
+    background-color: #fff5;
+   width: 80%;
+   margin-left: auto;
+   margin-right: auto;
+}
+table, th, td{
+    padding:1rem;
+}
+
+body{
+    background: url(https://img.freepik.com/free-photo/book-library-with-open-textbook_1150-5916.jpg?size=626&ext=jpg) center / cover;
+}
+
+thead th{
+    background-color: purple;
+}
+tbody{
+    background-color: rgb(200, 144, 189);
+    text-align: center;
+}
+
+#nested1, #nested2, #nested3, #nested4, #nested5{
+    margin-left: auto;
+   margin-right: auto;
+}
+
+#register{
+    background-color: rgb(178, 194, 30);
+   width: fit-content;
+   text-align: center;
+   margin-left: auto;
+   margin-right: auto;
+   border-radius: 20px;
+   padding: 10px;
+   font-family: 'Roboto', sans-serif;
+font-weight: bolder;
+}
+
+form{
+    width: 30%;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 30px;
+    padding: 10px;
+    background-color: rgb(228, 95, 34);
+}
+
+label{
+    font-size: large;
+    font-weight: bold;
+}
+input{
+    font-size: large;
+}
+
+#submit{
+    background-color: darkgreen;
+    border-radius: 30px;
+}
